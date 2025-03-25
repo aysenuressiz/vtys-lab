@@ -1,6 +1,7 @@
-/*veri tabanı kullan*/
+/*veri tabanı*/
+create database foy3;
+go
 use foy3;
-
 
 /*TABLO OLUŞTURMA*/
 
@@ -75,7 +76,7 @@ insert into unvan values
 (6, 'Takım Lideri', '2016-06-11'),
 (3, 'Takım Lideri', '2016-06-11');
 
-select * from ikramiye
+select * from unvan
 
 
 /*SORGULAR*/
